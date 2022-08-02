@@ -3,7 +3,7 @@
     scrollbar-color: transparent;
     /* thumb and track color */
     scrollbar-width: 0px;
-    margin: 0;
+    margin: 10px;
     padding: 0;
     -ms-overflow-style: none;
     scroll-behavior: smooth;
@@ -15,6 +15,8 @@ nav {
     align-items: center;
     padding: 30px 10px;
     background-image: url(/assets/picture/);
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -114,8 +116,7 @@ li {
 .carousel {
     position: relative;
     padding-top: 50%;
-    filter: drop-shadow(10px 5px 10px rgb(0, 0, 0));
-    perspective: 90px;
+    max-height: 520px;
 
 }
 
@@ -135,41 +136,35 @@ li {
 .carousel__slide {
     position: relative;
     flex: 0 0 100%;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
     counter-increment: item;
 }
 
 #carousel__slide1{
-    background-image:url(/assets/picture/cmp1.jpg);
+    background-image:url(/assets/picture/coverphotos/coverphoto1-1\ \(2\).png);
     background-repeat:no-repeat;
     background-position: center;
+    background-size: contain;
 }
 #carousel__slide2{
-    background-image:url(/assets/picture/cmp2.jpg);
+    background-image:url(/assets/picture/coverphotos/coverphoto2-1.png);
     background-repeat:no-repeat;
     background-position: center;
+    background-size: contain;
 
 }
 #carousel__slide3{
-    background-image:url(/assets/picture/cmp3.jpg);
+    background-image:url(/assets/picture/coverphotos/coverphoto3-1.png);
     background-repeat:no-repeat;
     background-position: center;
+    background-size: contain;
 }
-/* #carousel__slide4{
-    background-image:url(/assets/picture/ProfileIgnite.png);
-    background-repeat:no-repeat;
-    background-position: center;
-
-} */
 
 .carousel__slide:before {
     content: counter(item);
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 100%;
     transform: translate3d(-50%, -40%, 70px);
-    color: #fff;
     font-size: 2em;
 }
 
@@ -186,7 +181,7 @@ li {
     .carousel__snapper {
         animation-name: tonext, snap;
         animation-timing-function: ease;
-        animation-duration: 9s;
+        animation-duration: 5s;
         animation-iteration-count: infinite;
     }
 
@@ -220,16 +215,14 @@ li {
 }
 
 .carousel__navigation-button {
-    display: inline-block;
-    width: .5rem;
-    height: .5rem;
-    background-color: rgb(255, 255, 255);
+    display: none;
+    width: .1rem;
+    height: .1rem;
     background-clip: content-box;
-    border: 5px solid rgb(255, 255, 255);
     border-radius: 50%;
     font-size: 0;
     margin-bottom: 20px;
-    transition: transform 0.1s;
+    transition: transform 1s;
 }
 
 .carousel::before,
@@ -262,23 +255,25 @@ li {
 .carousel::after {
     content: '';
     z-index: 1;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(231, 0, 0, 0);
     background-size: 1.5rem 1.5rem;
     background-repeat: no-repeat;
     background-position: center center;
-    color: #fff;
+    color: rgba(255, 255, 255, 0);
     font-size: 5rem;
     line-height: 2rem;
-    text-align: center;
-    pointer-events: none;
+    pointer-events:all;
 }
 
 .carousel::before {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
+    display:none;
 }
 
 .carousel::after {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+    display:none;
+
 }
 
 /* -------------------------------------------- */
@@ -355,5 +350,5 @@ footer {
     height: 60px;
     padding-top: 20px;
     display: flexbox;
-    background: rgba(0, 0, 0, 0.253);
+    background: rgb(0, 0, 0);
 }
