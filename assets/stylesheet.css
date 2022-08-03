@@ -150,7 +150,7 @@ body {
 .jumbotron {
   width: 100%;
   margin: 0;
-  background-image: url(/assets/picture/coverphotos/coverphoto2-1.png);
+  background-image: url(/assets/picture/coverphotos/Coverme.png);
 }
 
 .jumbotron .container {
@@ -203,7 +203,7 @@ section .container {
 }
 
 section#portfolio {
-  background-image: url(/assets/picture/coverphotos/coverphoto3-1.png);
+  background-image: url(/assets/picture/coverphotos/Coverme1.png);
 }
 
 section#portfolio .container h1,
