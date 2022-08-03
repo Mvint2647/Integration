@@ -17,12 +17,16 @@ body {
     height: 100%;
   }
 }
-
+.page-header2 {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #000000;
+}
 
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #00ff9d;
 }
 
 #wrapper {
@@ -146,7 +150,7 @@ body {
 .jumbotron {
   width: 100%;
   margin: 0;
-  background-image: url(/assets/picture/coverphoto2-1.png);
+  background-image: url(/assets/picture/coverphotos/coverphoto2-1.png);
 }
 
 .jumbotron .container {
@@ -199,7 +203,7 @@ section .container {
 }
 
 section#portfolio {
-  background-image: url(/assets/picture/coverphoto3-1.png);
+  background-image: url(/assets/picture/coverphotos/coverphoto3-1.png);
 }
 
 section#portfolio .container h1,
@@ -209,7 +213,7 @@ section#portfolio .container h3 {
 }
 
 section#contact .container {
-  padding-bottom: 30px;
+  padding-bottom: 70px;
 }
 
 section#contact .container > .row {
@@ -301,7 +305,7 @@ a {
 }
 
 a:hover {
-  color: #148f77;
+  color: #00ff9d;
   text-decoration: none;
   transform: translate(0, -2px);
 }
@@ -319,6 +323,8 @@ a.top:hover {
 .thumbnail {
   padding: 0 0 15px 0;
   margin: 15px;
+  border:3px solid #000000;
+  background-color: #00ff9d7b;
   -webkit-box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.5);
   box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.5);
@@ -329,6 +335,7 @@ a.top:hover {
   height: 200px;
   margin-bottom: 10px;
 }
+
 
 footer {
   padding-bottom: 20px !important;
