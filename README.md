@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+(PSA Site is published, still working on it.)
 
-You can use the [editor on GitHub](https://github.com/Mvint2647/Integration/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# PortfolioVint
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-### Markdown
+Decided to change up my portfolio and upgraded it. The majority of the code is CSS.  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Table of Contents
 
-```markdown
-Syntax highlighted code block
+  - [Table of Contents](#table-of-contents)
+  - [Usage](#usage)
+  - [Features](#features)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Screenshots](#screenshots)
+  - [Questions](#questions)
 
-# Header 1
-## Header 2
-### Header 3
+## Usage
+1. Go to Live site Listed below.
+2. Scan the site for each topic (About Me/ Skills/ and Contact info.)
+3. To reach contact info towards the bottom of site.
+4. Have fun!
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+The Live link of the application is available at:  [Live Site Here!](https://mvint2647.github.io/Integration/)
+## Features
+* Responsive Smooth Scroll
+* Active Features
+* Email Opportunity
+* Browse Through Work.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+## License
+This project uses the MIT license
+## Contributing
+Pull requests are not welcome
+## Screenshots
+**Home Page**
+![Integration](ss2.png)
+![Integration](ss1.png)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Questions
+Checkout my GitHub [profile](https://github.com/mvint2647)
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Mvint2647/Integration/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Please feel free to email at: <Melissavinny1133@gmail.com>
