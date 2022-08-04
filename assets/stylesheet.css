@@ -154,8 +154,14 @@ body {
   }
 }
 
+.jumbotron{
+  background-color:black;
+}
+
 .jumbotron .container {
   padding: initial;
+  
+
 }
 
 .jumbotron .container h1 {
@@ -175,8 +181,7 @@ body {
 
 .jumbotron .container .btn {
   margin: 15px 10px;
-  color: rgb(2, 255, 154);
-  background: #000000;
+  color: rgb(0, 0, 0);
   border-color: #000000;
   -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.4);
