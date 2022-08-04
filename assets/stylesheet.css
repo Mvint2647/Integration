@@ -8,15 +8,17 @@ body {
   font: 18px "Montserrat", sans-serif;
   line-height: 1.8;
   color: #000000;
-  background-color:rgb(2, 255, 154); 
+  background-color: rgb(0, 0, 0);
 }
 
 @media(min-width:768px) {
-  html, body {
-    /* for jumbotron */
+
+  html,
+  body {
     height: 100%;
   }
 }
+
 .page-header2 {
   padding-bottom: 9px;
   margin: 40px 0 20px;
@@ -127,20 +129,25 @@ body {
   #wrapper {
     padding-right: 250px;
   }
+
   #wrapper.toggled {
     padding-right: 0;
   }
+
   #nav-side-wrapper {
     width: 0;
-   
+
   }
+
   #wrapper.toggled #nav-side-wrapper {
     width: 250px;
-  
+
   }
+
   #content-wrapper {
     position: relative;
   }
+
   #wrapper.toggled #content-wrapper {
     position: relative;
     margin-left: 0;
@@ -158,23 +165,23 @@ body {
 }
 
 .jumbotron .container h1 {
-  color:rgb(2, 255, 154);
+  color: rgb(2, 255, 154);
   text-shadow: 1px 3px 8px rgb(0, 0, 0);
 }
 
 .jumbotron .container h3 {
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
 .jumbotron .container p {
   margin-top: 30px;
-  color:rgb(2, 255, 154);
+  color: rgb(2, 255, 154);
 }
 
 .jumbotron .container .btn {
   margin: 15px 10px;
-  color:rgb(2, 255, 154);
+  color: rgb(2, 255, 154);
   background: #000000;
   border-color: #000000;
   -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.4);
@@ -185,10 +192,10 @@ body {
 .vertical-centre {
   min-height: 100%;
   /* Fallback for browsers do NOT support vh unit */
-  
+
   min-height: 100vh;
   /* These two lines are counted as one :-)       */
-  color:white;
+  color: white;
   display: flex;
   align-items: center;
 }
@@ -216,7 +223,7 @@ section#contact .container {
   padding-bottom: 70px;
 }
 
-section#contact .container > .row {
+section#contact .container>.row {
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -249,14 +256,15 @@ section#contact .glyphicon {
     background-size: auto 130%;
   }
 }
+
 /* unused shadowing between sections, caused lag */
 .shadow {
   -webkit-box-shadow: inset 0 100px 100px -100px rgba(0, 0, 0, 0.8),
-              inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
+    inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: inset 0 100px 100px -100px rgba(0, 0, 0, 0.8),
-              inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
+    inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
   box-shadow: inset 0 100px 100px -100px rgba(0, 0, 0, 0.8),
-              inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
+    inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
 }
 
 .shadow:first-of-type {
@@ -271,7 +279,7 @@ section#contact .glyphicon {
 }
 
 .btn {
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   margin: 5px 5px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -323,7 +331,7 @@ a.top:hover {
 .thumbnail {
   padding: 0 0 15px 0;
   margin: 15px;
-  border:3px solid #000000;
+  border: 5px solid #000000;
   background-color: #00ff9d7b;
   -webkit-box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.5);
