@@ -155,7 +155,7 @@ body {
 }
 
 .jumbotron{
-  background-image: url(https://raw.githubusercontent.com/Mvint2647/Integration/main/assets/picture/Coverme1.png);
+  background-image: url(http://127.0.0.1:5500/assets/picture/coverhead.png);
 }
 
 .jumbotron .container h1 {
