@@ -212,7 +212,7 @@ section#portfolio {
   background-image: url(/assets/picture/coverme.png);
 }
 section#portfolio1 {
-  background-image: url(/assets/picture/coverme3-1.png);
+  background-image:url(/assets/picture/coverme3-1.png)
 }
 
 section#portfolio .container h1,
