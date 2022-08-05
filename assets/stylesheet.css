@@ -155,7 +155,7 @@ body {
 }
 
 .jumbotron{
-  background-color:black;
+  background-image: url(https://images.unsplash.com/photo-1562734893-5c8b95a62b38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
 }
 
 .jumbotron .container {
@@ -209,10 +209,10 @@ section .container {
 }
 
 section#portfolio {
-  background-image: url(/assets/picture/coverme.png);
+  background-image: url(https://imgur.com/YLHdEwz.png);
 }
 section#portfolio1 {
-  background-image:url(/assets/picture/coverme3-1.png)
+  background-image:url(https://imgur.com/m9AjCSk.png)
 }
 
 section#portfolio .container h1,
