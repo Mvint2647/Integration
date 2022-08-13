@@ -1,13 +1,12 @@
-html {
+/* html {
   padding: 0;
   margin: 0;
   position: relative;
-}
+} */
 
 body {
-  font: 18px "Montserrat", sans-serif;
   line-height: 1.8;
-  color: #ffffff;
+  color:#00ff9d;
   background-color: rgb(0, 0, 0);
 }
 
@@ -84,7 +83,25 @@ body {
   line-height: 40px;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color:#00ff9d;
+}
+
+p {
+  color:rgb(255, 255, 255);
+
+}
+
 .navbar {
+  background-color: #000000;
   padding-top: 10px;
   padding-bottom: 10px;
   border: 0;
@@ -109,21 +126,12 @@ body {
 
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
-  color: rgb(2, 255, 154) !important;
+  color: rgb(2, 255, 154)!important;
   letter-spacing: 4px;
   transform: translate(0, -2px);
   background: transparent !important;
 }
 
-.navbar-toggle {
-  font-size: 16px;
-  margin-top: 0;
-  margin-bottom: 0;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
 
 @media(min-width:768px) {
   #wrapper {
@@ -154,20 +162,22 @@ body {
   }
 }
 
-.jumbotron{
-  background-image: url(http://127.0.0.1:5500/assets/picture/coverhead.png);
+.jumbotron {
+  background-image: url(/assets/picture/deskoffice.jpg   );
 }
 
 .jumbotron .container h1 {
   color: rgb(2, 255, 154);
-  text-shadow: 1px 3px 8px rgb(0, 0, 0);
+  text-shadow: 3px 5px 8px rgb(0, 0, 0);
 }
-
+.container h2 {
+  color: rgb(2, 255, 154);
+  text-shadow: 3px 5px 8px rgb(0, 0, 0);
+}
 .jumbotron .container h3 {
-  color: rgb(255, 255, 255);
-  text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
+  color: rgb(2, 255, 154);
+  text-shadow: 3px 5px 8px rgb(0, 0, 0);
 }
-
 .jumbotron .container p {
   margin-top: 30px;
   color: rgb(2, 255, 154);
@@ -175,7 +185,8 @@ body {
 
 .jumbotron .container .btn {
   margin: 15px 10px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  background-color: #000000;
   border-color: #000000;
   -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.4);
@@ -203,20 +214,23 @@ section .container {
 }
 
 section#portfolio {
-  background-image: url(http://127.0.0.1:5500/assets/picture/coverme3-1.png);
+  background-image: url(/assets/picture/blac3.jpg);
 }
-section#portfolio1 {
-  background-image:url(http://127.0.0.1:5500/assets/picture/coverme.png);
+
+section#Extra {
+  background-image: url(/assets/picture/blac2.jpg);
 }
 
 section#portfolio .container h1,
 section#portfolio .container h3 {
   color: white;
+  border-color: #000000 2px solid;
   text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
-section#portfolio1 .container h1,
-section#portfolio1 .container h3 {
+section#Extra .container h1,
+section#Extra .container h3 {
+  border-color: #000000 2px solid;
   color: white;
   text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
 }
@@ -225,7 +239,7 @@ section#contact .container {
   padding-bottom: 70px;
 }
 
-section#contact .container>.row {
+section#contact .container.row {
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -279,16 +293,16 @@ section#contact .glyphicon {
   padding-top: 20px;
 }
 
-.btn {
+/* .btn {
   color: rgb(255, 255, 255);
   margin: 5px 5px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-}
+} */
 
-.btn-lg i {
+/* .btn-lg i {
   padding-right: 8px;
 }
 
@@ -302,10 +316,10 @@ section#contact .glyphicon {
 
 .btn-success.disabled {
   background-color: #000000 !important;
-}
+} */
 
 a {
-  color: #000000;
+  color: rgb(0, 0, 0);
   display: inline-block;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -331,10 +345,11 @@ a.top:hover {
 }
 
 .thumbnail {
+  color: black;
   padding: 0 0 15px 0;
   margin: 15px;
   border: 5px solid #000000;
-  background-color: #00ff9d7b;
+  background-color: #00ff9dd3;
   -webkit-box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.5);
   box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.5);
@@ -346,9 +361,13 @@ a.top:hover {
   margin-bottom: 10px;
 }
 
+.submitform{
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+}
 
 footer {
   padding-bottom: 20px !important;
-  background: white;
-  color:black;
+  background: rgba(0, 0, 0, 0.235);
+  color: rgb(255, 255, 255);
 }
