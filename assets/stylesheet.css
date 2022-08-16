@@ -163,7 +163,7 @@ p {
 }
 
 .jumbotron {
-  background-image: url(/assets/picture/deskoffice.jpg   );
+  background-image: url(./assets/picture/coverhead.png);
 }
 
 .jumbotron .container h1 {
@@ -214,11 +214,11 @@ section .container {
 }
 
 section#portfolio {
-  background-image: url(/assets/picture/blac3.jpg);
+  background-image: url(./assets/picture/coverphoto3-1.png);
 }
 
 section#Extra {
-  background-image: url(/assets/picture/blac2.jpg);
+  background-image: url(/assets/picture/coverme3-1.png);
 }
 
 section#portfolio .container h1,
