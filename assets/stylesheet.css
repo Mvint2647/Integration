@@ -328,7 +328,7 @@ a.top:hover {
 
 }
 
-.thumbnail {
+.thumbnail, .thumbnail1 {
   color: black;
   padding: 0 0 15px 0;
   margin: 15px;
@@ -338,13 +338,8 @@ a.top:hover {
   box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.659); 
 }
 
-.p1 {
-  color: black;
-}
-p{
-  color:black;
-}
-.thumbnail img {
+
+.thumbnail img, .thumbnail1 img {
   width: 100%;
   height: 100%;
   margin-bottom:10px;
@@ -352,7 +347,12 @@ p{
   background-blend-mode:saturation 30%;
   
 }
-
+.p1 {
+  color: black;
+}
+p{
+  color:black;
+}
 .submitform {
   color: rgb(2, 255, 154);
   font-size: 20px;
