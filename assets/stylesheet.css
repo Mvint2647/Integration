@@ -6,7 +6,7 @@
 
 body {
   line-height: 1.8;
-  color:#00ff9d;
+  color: #00ff9d;
   background-color: rgb(0, 0, 0);
 }
 
@@ -92,11 +92,11 @@ body {
 }
 
 .navbar-inverse .navbar-brand:hover {
-  color:#00ff9d;
+  color: #00ff9d;
 }
 
 p {
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 
 }
 
@@ -126,7 +126,7 @@ p {
 
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
-  color: rgb(2, 255, 154)!important;
+  color: rgb(2, 255, 154) !important;
   letter-spacing: 4px;
   transform: translate(0, -2px);
   background: transparent !important;
@@ -170,14 +170,17 @@ p {
   color: rgb(2, 255, 154);
   text-shadow: 3px 5px 8px rgb(0, 0, 0);
 }
+
 .container h2 {
   color: rgb(2, 255, 154);
   text-shadow: 3px 5px 8px rgb(0, 0, 0);
 }
+
 .jumbotron .container h3 {
   color: rgb(2, 255, 154);
   text-shadow: 3px 5px 8px rgb(0, 0, 0);
 }
+
 .jumbotron .container p {
   margin-top: 30px;
   color: rgb(2, 255, 154);
@@ -214,11 +217,11 @@ section .container {
 }
 
 section#portfolio {
-  background-image: url(./picture/coverphoto3-1.png);
+  background-image: url(./picture/coverhead2.png);
 }
 
 section#Extra {
-  background-image: url(./picture/coverme3-1.png);
+  background-image: url(./picture/coverhead3.png);
 }
 
 section#portfolio .container h1,
@@ -328,9 +331,15 @@ a {
 }
 
 a:hover {
-  color: #00ff9d;
+  color: #ffffff;
+  border-color: #000000;
   text-decoration: none;
   transform: translate(0, -2px);
+  box-shadow:
+    7px 7px 20px 0px rgba(0, 0, 0, .2),
+    4px 4px 5px 0px rgba(0, 0, 0, .3);
+  transition: all 0.3s ease;
+
 }
 
 a.top {
@@ -357,12 +366,12 @@ a.top:hover {
 
 .thumbnail img {
   width: 100%;
-  height: 200px;
+  height: 100%;
   margin-bottom: 10px;
 }
 
-.submitform{
-  color:rgb(255, 255, 255);
+.submitform {
+  color: #00ff9dd3;
   font-size: 20px;
 }
 
