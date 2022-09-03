@@ -10,6 +10,7 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
+
 @media(min-width:768px) {
 
   html,
@@ -30,7 +31,7 @@ body {
   border-bottom: 1px solid rgb(2, 255, 154);
 }
 
-#wrapper {
+/* #wrapper {
   padding-right: 0;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -40,8 +41,8 @@ body {
 
 #wrapper.toggled {
   padding-right: 250px;
-}
-
+} */
+/* 
 #nav-side-wrapper {
   z-index: 1000;
   position: fixed;
@@ -68,9 +69,9 @@ body {
 #wrapper.toggled #content-wrapper {
   position: absolute;
   margin-left: -250px;
-}
+} */
 
-.nav-side {
+/* .nav-side {
   position: absolute;
   top: 0;
   width: 250px;
@@ -93,6 +94,11 @@ body {
 
 .navbar-inverse .navbar-brand:hover {
   color: rgb(2, 255, 154);
+} */
+
+.navbar-toggle{
+  display:hidden;
+  border:rgba(0, 0, 0, 0)
 }
 
 p {
@@ -101,6 +107,9 @@ p {
 }
 
 .navbar {
+  display:center;
+  justify-content: center;
+  align-items: center;
   background-color: #000000;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -108,7 +117,7 @@ p {
   border-radius: 0;
   margin-bottom: 0;
   letter-spacing: 2px;
-  z-index: 9999;
+  /* z-index: 9999; */
   -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 10px 0 rgb(2, 255, 154);
@@ -120,15 +129,16 @@ p {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   padding-left: 20px;
-  padding-right: 20px;
+  /* padding-right: 20px; */
   font-size: 16px;
+  
 }
 
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
   color: rgb(2, 255, 154) !important;
-  letter-spacing: 4px;
-  transform: translate(0, -2px);
+  letter-spacing: 1px;
+  transform: translate(0, 1px);
   background: transparent !important;
 }
 
