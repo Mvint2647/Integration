@@ -219,9 +219,14 @@ section .container {
 section#portfolio {
   background-image: url(./picture/coverhead2.png);
 }
+section#controller {
+  background-image: url(./picture/coverhead2.png);
+}
 
-section#Extra {
+
+section#esports {
   background-image: url(./picture/coverhead3.png);
+  
 }
 
 section#portfolio .container h1,
@@ -231,8 +236,15 @@ section#portfolio .container h3 {
   text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
-section#Extra .container h1,
-section#Extra .container h3 {
+section#esports .container h1,
+section#esports .container h3 {
+  border-color: #000000 2px solid;
+  color: white;
+  text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+section#controller .container h1,
+section#controller .container h3 {
   border-color: #000000 2px solid;
   color: white;
   text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
