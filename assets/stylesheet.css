@@ -232,11 +232,11 @@ section#portfolio {
 section#controller {
   background-image: url(./picture/coverhead2.png);
 }
-
-
+section#content {
+  background-image: url(./picture/coverhead3.png);
+}
 section#esports {
   background-image: url(./picture/coverhead3.png);
-  
 }
 
 section#portfolio .container h1,
@@ -260,19 +260,14 @@ section#controller .container h3 {
   text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
-section#contact .container {
-  padding-bottom: 70px;
+section#content .container p,
+section#content .container  {
+  border-color: #000000 2px solid;
+  color: white;
+  text-shadow: 1px 2px 6px rgba(0, 0, 0, 0);
 }
 
-section#contact .container.row {
-  padding-left: 10%;
-  padding-right: 10%;
-}
 
-section#contact .glyphicon {
-  color: rgb(2, 255, 154);
-  padding-right: 8px;
-}
 
 #form-feedback {
   color: rgb(2, 255, 154);
