@@ -31,74 +31,9 @@ body {
   border-bottom: 1px solid rgb(2, 255, 154);
 }
 
-/* #wrapper {
-  padding-right: 0;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-#wrapper.toggled {
-  padding-right: 250px;
-} */
-/* 
-#nav-side-wrapper {
-  z-index: 1000;
-  position: fixed;
-  right: 250px;
-  width: 0;
-  height: 100%;
-  margin-right: -250px;
-  overflow-y: auto;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-#wrapper.toggled #nav-side-wrapper {
-  width: 250px;
-}
-
-#content-wrapper {
-  width: 100%;
-  position: absolute;
-}
-
-#wrapper.toggled #content-wrapper {
-  position: absolute;
-  margin-left: -250px;
-} */
-
-/* .nav-side {
-  position: absolute;
-  top: 0;
-  width: 250px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.nav-side li {
-  line-height: 40px;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-  color: white;
-}
-
-.navbar-inverse .navbar-brand {
-  color: white;
-}
-
-.navbar-inverse .navbar-brand:hover {
-  color: rgb(2, 255, 154);
-} */
-
-.navbar-toggle{
-  display:hidden;
-  border:rgba(0, 0, 0, 0)
+.navbar-toggle {
+  display: hidden;
+  border: rgba(0, 0, 0, 0)
 }
 
 p {
@@ -107,7 +42,7 @@ p {
 }
 
 .navbar {
-  display:center;
+  display: center;
   justify-content: center;
   align-items: center;
   background-color: #000000;
@@ -131,7 +66,7 @@ p {
   padding-left: 20px;
   /* padding-right: 20px; */
   font-size: 16px;
-  
+
 }
 
 .navbar-nav li a:hover,
@@ -229,12 +164,15 @@ section .container {
 section#portfolio {
   background-image: url(./picture/coverhead2.png);
 }
+
 section#controller {
   background-image: url(./picture/coverhead2.png);
 }
+
 section#content {
   background-image: url(./picture/coverhead3.png);
 }
+
 section#esports {
   background-image: url(./picture/coverhead3.png);
 }
@@ -261,7 +199,7 @@ section#controller .container h3 {
 }
 
 section#content .container p,
-section#content .container  {
+section#content .container {
   border-color: #000000 2px solid;
   color: white;
   text-shadow: 1px 2px 6px rgba(0, 0, 0, 0);
@@ -349,26 +287,28 @@ a.top:hover {
   color: black;
   padding: 0 0 15px 0;
   margin: 15px;
-  background-color:rgba(2, 255, 154, 0.523);
+  background-color: rgba(2, 255, 154, 0.523);
   -webkit-box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.659);
   -moz-box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.659);
-  box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.659); 
+  box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.659);
 }
 
 
 .thumbnail img {
   width: 100%;
   height: 100%;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   background-image: linear-gradient(to bottom, transparent 100%, rgb(0, 0, 0) 100%);
 }
 
 .p1 {
   color: black;
 }
-p{
-  color:black;
+
+p {
+  color: black;
 }
+
 .submitform {
   color: rgb(2, 255, 154);
   font-size: 20px;
