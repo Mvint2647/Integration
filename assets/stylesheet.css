@@ -1,9 +1,9 @@
-
-
 @media(min-width:768px) {
+
   html,
   body {
-    color:white;
+    font-family: 'Russo One', sans-serif;
+    color: white;
     padding: 0;
     margin: 0;
     position: relative;
@@ -32,10 +32,8 @@
   align-items: center;
   background-color: #000000;
   padding-top: 10px;
-  padding-bottom: 10px;
   border: 0;
   border-radius: 0;
-  margin-bottom: 0;
   letter-spacing: 2px;
   -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
@@ -43,6 +41,7 @@
 }
 
 .navbar-nav li a {
+  font-size: 10px;
   color: rgb(255, 255, 255) !important;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -61,47 +60,17 @@
   background: transparent !important;
 }
 
-@media(min-width:768px) {
-  #wrapper {
-    padding-right: 250px;
-  }
-
-  #wrapper.toggled {
-    padding-right: 0;
-  }
-
-  #nav-side-wrapper {
-    width: 0;
-
-  }
-
-  #wrapper.toggled #nav-side-wrapper {
-    width: 250px;
-
-  }
-
-  #content-wrapper {
-    position: relative;
-  }
-
-  #wrapper.toggled #content-wrapper {
-    position: relative;
-    margin-left: 0;
-  }
-}
-
 .jumbotron {
-  background-image: url(./picture/2825704.gif);
+  background-image: url(./picture/cover.gif);
 }
 
 .jumbotron .container .btn {
   margin: 15px 10px;
   color: rgb(255, 255, 255);
-  background-color: #00000051;
-  border-color: rgb(0, 255, 229);
+  background-color: #000000;
   -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.4);
-  box-shadow: 2px 1px 10px -1px rgb(0, 255, 229);
+  box-shadow: 2px 1px 10px -1px rgb(255, 255, 255);
 }
 
 .vertical-centre {
@@ -110,7 +79,7 @@
 
   min-height: 100vh;
   /* These two lines are counted as one :-)       */
-  
+
   display: flex;
   align-items: center;
 }
@@ -125,18 +94,18 @@ section .container {
 }
 
 section#webdev {
-  background-image: url(./picture/greenblue.jpg);
+  background-image: url(./picture/pic2.jpg);
 }
 
 section#graphic {
-  background-image: url(./picture/greenblue.jpg);
+   background-image: url(./picture/greenblue.jpg);
 }
 
 section#webdev .container h1,
 section#webdev .container h3 {
-  color: white;
+  color: rgb(0, 0, 0);
   border-color: #000000 2px solid;
-  text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 2px 10px rgb(51, 255, 0);
 }
 
 
@@ -144,13 +113,12 @@ section#graphic .container h1,
 section#graphic .container h3 {
   color: rgb(255, 255, 255);
   border-color: #000000 2px solid;
-  text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 5px 10px rgb(255, 0, 0);
 }
 
 section#organization .container h1,
-section#organization .container h3
-{
-  color: rgb(255, 255, 255);
+section#organization .container h3 {
+  color: rgb(255, 0, 0);
   border-color: #000000 2px solid;
   text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
 }
@@ -203,7 +171,7 @@ section#organization .container h3
 a {
   font-size: large;
   color: rgb(255, 242, 0);
-  margin-bottom: 20px;;
+  margin-bottom: 20px;
   display: inline-block;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -229,18 +197,49 @@ a.top {
 a.top:hover {
   letter-spacing: 2px;
   transform: translate(0, -10px);
+}
+.thumbnail2 {
+  border: #938502 solid;
+  padding: 5 5 15px 5;
+  margin: 15px;
+  background-color: rgba(0, 0, 0, 0.819);
+  -webkit-box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.659);
+  -moz-box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.659);
+  box-shadow: -1px -1px 10px 3px rgb(98, 90, 0);
+}
 
+.thumbnail2 img {
+  width: 100%;
+  height: 10%;
+  margin-bottom: 10px;
+  background-image: linear-gradient(to bottom, transparent 100%, rgb(0, 0, 0) 100%);
+}
+
+.thumbnail1 {
+  border: #095c00 solid;
+  padding: 5 5 15px 5;
+  margin: 15px;
+  background-color: rgba(0, 0, 0, 0.819);
+  -webkit-box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.659);
+  -moz-box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.659);
+  box-shadow: -1px -1px 10px 3px rgb(2, 98, 0);
+}
+.thumbnail1 img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  background-image: linear-gradient(to bottom, transparent 100%, rgb(0, 0, 0) 100%);
 }
 
 .thumbnail {
+  border: #5c0000 solid;
   padding: 5 5 15px 5;
   margin: 15px;
-  background-color: rgba(0, 0, 0, 0.367);
+  background-color: rgba(0, 0, 0, 0.819);
   -webkit-box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.659);
   -moz-box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.659);
-  box-shadow: 5px 5px 20px -3px rgba(0, 0, 0, 0.659);
+  box-shadow: -1px -1px 10px 3px rgb(98, 0, 0);
 }
-
 
 .thumbnail img {
   width: 100%;
@@ -250,7 +249,7 @@ a.top:hover {
 }
 
 p {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 157, 0);
 }
 
 .submitform {
