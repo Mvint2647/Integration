@@ -41,46 +41,5 @@ $(document).ready(function() {
         });
       }); // end window scroll
     }); // end section function
-  
-  //   // ============= contact form =============
-  //   // https://webdesign.tutsplus.com/tutorials/building-a-bootstrap-contact-form-using-php-and-ajax--cms-23068
-  //   $("#contact-form").validator().on("submit", function(event) {
-  //     if (event.isDefaultPrevented()) {
-  //       // handle the invalid form...
-  //     } else {
-  //       // everything looks good!
-  //       event.preventDefault();
-  //       formSuccess();
-  //     }
-  //   });
-  
-  //   function submitForm() {
-  //     // Initiate Variables With Form Content
-  //     var name = $("#name").val();
-  //     var email = $("#email").val();
-  //     var message = $("#message").val();
-  
-  //     $.ajax({
-  //       type: "POST",
-  //       url: "php/form-process.php",
-  //       data: "name=" + name + "&email=" + email + "&message=" + message,
-  //       success: function(text) {
-  //         if (text == "success") {
-  //           formSuccess();
-  //         }
-  //       }
-  //     });
-  //   }
-  
-  //   function formSuccess() {
-  //     $("#form-feedback").css({
-  //       opacity: 1,
-  //       marginRight: "20px"
-  //     });
-  //   }
-  
-  // });
-
-
 
 })
