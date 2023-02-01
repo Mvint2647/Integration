@@ -108,37 +108,37 @@ p {
 }
 
 .jumbotron {
-  background-image: url(./picture/);
+  background-image: url(./picture/2825704.gif);
 }
 
-.jumbotron .container h1 {
-  color: rgb(2, 255, 154);
+/* .jumbotron .container h1 {
+  color: rgb(255, 0, 0);
   text-shadow: 3px 5px 8px rgb(0, 0, 0);
-}
+} */
 
-.container h2 {
-  color: rgb(2, 255, 154);
+/* .container h2 {
+  color: rgb(2, 27, 255);
   text-shadow: 3px 5px 8px rgb(0, 0, 0);
-}
+} */
 
-.jumbotron .container h3 {
-  color: rgb(2, 255, 154);
+/* .jumbotron .container h3 {
+  color: rgb(25, 0, 255);
   text-shadow: 3px 5px 8px rgb(0, 0, 0);
-}
+} */
 
-.jumbotron .container p {
+/* .jumbotron .container p {
   margin-top: 30px;
   color: rgb(2, 255, 154);
-}
+} */
 
 .jumbotron .container .btn {
   margin: 15px 10px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 255, 225);
   background-color: #000000;
-  border-color: #000000;
+  border-color: #ffffff;
   -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.4);
-  box-shadow: 1px 2px 15px -3px rgb(2, 255, 154);
+  box-shadow: 1px 2px 15px -3px rgb(255, 255, 255);
 }
 
 /* ------ */
@@ -154,7 +154,7 @@ p {
 }
 
 .card {
-  background: #191c29;
+  background: #000000;
   width: var(--card-width);
   height: var(--card-height);
   padding: 3px;
@@ -165,13 +165,13 @@ p {
   text-align: center;
   display: flex;
   font-size: 1.5em;
-  color: rgb(88 199 250 / 0%);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   font-family: cursive;
 }
 
 .card:hover {
-  color: rgb(88 199 250 / 100%);
+  color: rgb(255, 255, 255);
   transition: color 1s;
 }
 
@@ -229,7 +229,7 @@ p {
 
   min-height: 100vh;
   /* These two lines are counted as one :-)       */
-  color: white;
+  
   display: flex;
   align-items: center;
 }
@@ -244,11 +244,11 @@ section .container {
 }
 
 section#webdev {
-  background-image: url(./picture/);
+  background-image: url(./picture/greenblue.jpg);
 }
 
 section#graphic {
-  background-image: url(./picture/);
+  background-image: url(./picture/greenblue.jpg);
 }
 
 section#webdev .container h1,
@@ -258,11 +258,27 @@ section#webdev .container h3 {
   text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
 }
 
+
 section#graphic .container h1,
 section#graphic .container h3 {
-  color: white;
+  color: rgb(255, 255, 255);
   border-color: #000000 2px solid;
   text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+section#organization .container h1
+{
+  color: rgb(255, 255, 255);
+  border-color: #000000 2px solid;
+  text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+section#organization .container h3
+{
+  color:rgb(2, 255, 154);
+  border-color: #000000 2px solid;
+  text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
+  font-size: 20px;
 }
 
 #form-feedback {
@@ -369,8 +385,8 @@ p {
 }
 
 .submitform {
-  color: rgb(2, 255, 154);
-  font-size: 20px;
+  color: rgb(255, 0, 0);
+  font-size: 10px;
 }
 
 footer {
