@@ -3,6 +3,7 @@
 @media(min-width:768px) {
   html,
   body {
+    color:white;
     padding: 0;
     margin: 0;
     position: relative;
