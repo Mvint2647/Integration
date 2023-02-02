@@ -1,5 +1,4 @@
 @media(min-width:768px) {
-
   html,
   body {
     font-family: 'Russo One', sans-serif;
@@ -9,7 +8,6 @@
     position: relative;
     height: 100%;
     background-color: rgb(0, 0, 0);
-
   }
 }
 
@@ -49,7 +47,6 @@
   transition: all 0.5s ease;
   padding-left: 20px;
   font-size: 16px;
-
 }
 
 .navbar-nav li a:hover,
@@ -75,11 +72,7 @@
 
 .vertical-centre {
   min-height: 100%;
-  /* Fallback for browsers do NOT support vh unit */
-
   min-height: 100vh;
-  /* These two lines are counted as one :-)       */
-
   display: flex;
   align-items: center;
 }
@@ -98,7 +91,7 @@ section#webdev {
 }
 
 section#graphic {
-   background-image: url(./picture/greenblue.jpg);
+  background-image: url(./picture/greenblue.jpg);
 }
 
 section#webdev .container h1,
@@ -132,7 +125,6 @@ section#organization .container h3 {
   -moz-transition: all .5s ease-out;
   -o-transition: all .5s ease-out;
   transition: all .5s ease-out;
-
 }
 
 .bgd {
@@ -151,11 +143,11 @@ section#organization .container h3 {
 /* unused shadowing between sections, caused lag */
 .shadow {
   -webkit-box-shadow: inset 0 100px 100px -100px rgba(0, 0, 0, 0.8),
-    inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
+  inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: inset 0 100px 100px -100px rgba(0, 0, 0, 0.8),
-    inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
+  inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
   box-shadow: inset 0 100px 100px -100px rgba(0, 0, 0, 0.8),
-    inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
+  inset 0 -100px 100px -100px rgba(0, 0, 0, 0.8);
 }
 
 .shadow:first-of-type {
